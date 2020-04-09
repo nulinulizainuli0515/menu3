@@ -1,0 +1,59 @@
+.header {
+  background-color: #a0552d;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 150px;
+  .logo{
+    height: 100px;
+    width: 200px;
+    background-color: royalblue;
+    margin: 20px;
+  }
+}
+.main {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  padding-top: 150px;
+  .ue {
+    display: flex;
+    padding: 50px;
+    .title{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFdOIzIIrvZl_N6Yssu17X8yW3aTrbGvfT2dS6KvUK6lG416b3&usqp=CAU");
+    width: 30%;
+    height: 300px;
+    font-size: 100px;
+    line-height: 300px;
+    }
+    .name {
+      padding: 30px;
+      width: 60%;
+      height: 300px;
+      li {
+        font-size: 30px;
+        line-height: 50px;
+      }
+    }
+  }
+
+  .naka {
+    .name {
+      li {
+      }
+    }
+    .title{
+      background-image: url("https://2.bp.blogspot.com/-3kd8rzFTIpM/Ul5qNgpfRoI/AAAAAAAAZBE/eC32cuyy1-Y/s800/drink_syouchu.png");
+    }
+  } 
+
+  .shita {
+    .title {
+      background-image: url("https://publicdomainq.net/images/201908/28s/publicdomainq-0037768.jpg");
+    }
+    .name {
+      li {
+      }
+    }
+  }
+}
